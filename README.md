@@ -1,4 +1,4 @@
-# � SYNAPSE - Official TBIT Kolkata AIML Club Website
+# � PredAIction - Official TBIT Kolkata AIML Club Website
 
 <div align="center">
 
