@@ -48,7 +48,7 @@ const CoreMembers = () => {
 
       {
       name: "Yash Mohan",
-      role: "Social Media Lead",
+      role: "Content Lead",
       image: member3,
       skills: ["Python", "Machine Learning", "NLP"],
       description: "Building AI solutions with Python, ML, and NLP.",

@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Calendar, Clock, Users, MapPin, User } from 'lucide-react';
-import deepLearningImg from '@/assets/event-deep-learning.jpg';
-import aiEthicsImg from '@/assets/event-ai-ethics.jpg';
+import deepLearningImg from '@/assets/mlwrkshop.png';
+import aiEthicsImg from '@/assets/genai.png';
 import computerVisionImg from '@/assets/event-computer-vision.jpg';
 
 interface Event {
@@ -26,12 +26,12 @@ const UpcomingEvents = () => {
   const staticEvents = [
     {
       id: "static-1",
-      title: "Deep Learning Workshop",
+      title: "Machine Learning Workshop",
       description: "Hands-on workshop covering neural networks, backpropagation, and building your first deep learning model with TensorFlow.",
-      date: "2024-03-15",
-      time: "14:00",
-      teacher: "Dr. Sarah Johnson",
-      location: "Lab 101",
+      date: "To be Declared",
+      time: "To be Declared",
+      teacher: "To be Declared",
+      location: "To be Declared",
       attendees: "50+ Expected",
       level: "Beginner to Intermediate",
       slug: "deep-learning-workshop",
@@ -39,12 +39,12 @@ const UpcomingEvents = () => {
     },
     {
       id: "static-2",
-      title: "AI Ethics Symposium",
+      title: "Generative AI",
       description: "Discussing the ethical implications of AI, bias in machine learning, and responsible AI development practices.",
-      date: "2024-03-22",
-      time: "10:00",
-      teacher: "Prof. Michael Chen",
-      location: "Auditorium",
+      date: "To be Declared",
+      time: "To be Declared",
+      teacher: "To be Declared",
+      location: "To be Declared",
       attendees: "100+ Expected",
       level: "All Levels",
       slug: "ai-ethics-symposium",
@@ -54,11 +54,11 @@ const UpcomingEvents = () => {
       id: "static-3",
       title: "Computer Vision Hackathon",
       description: "24-hour hackathon focused on computer vision applications. Build innovative solutions using OpenCV, YOLO, and modern CV techniques.",
-      date: "2024-04-05",
-      time: "09:00",
-      teacher: "Dr. Emily Rodriguez",
-      location: "Computer Lab",
-      attendees: "75+ Teams",
+      date: "To be Declared",
+      time: "To be Declared",
+      teacher: "To be Declared",
+      location: "To be Declared",
+      attendees: "25+ Teams",
       level: "Intermediate to Advanced",
       slug: "computer-vision-hackathon",
       image: computerVisionImg
