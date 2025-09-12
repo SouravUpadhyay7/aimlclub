@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import logo from '@/assets/bg pics/IDENTITY.png';
+import secondLogo from '@/assets/bit.jpg'; // <-- Add your second logo here
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -13,7 +14,6 @@ const Navigation = () => {
     { name: 'Team', href: '#members' },
     { name: 'Events', href: '#events' },
     { name: 'Gallery', href: '#gallery' },
-    // { name: 'Achievements', href: '#achievements' },
     { name: 'Contact', href: '#contact' }
   ];
 
@@ -48,23 +48,33 @@ const Navigation = () => {
 
   return (
     <>
-      <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
-        isScrolled
-          ? 'glass-nav'
-          : 'bg-transparent'
-      }`}>
+      <nav
+        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
+          isScrolled ? 'glass-nav' : 'bg-transparent'
+        }`}
+      >
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            {/* Logo */}
+            {/* Logos + Title */}
             <button 
               onClick={scrollToTop}
               className="flex items-center space-x-3 group"
             >
+              {/* New Left Logo */}
+              <img 
+                src={secondLogo} 
+                alt="Left Logo" 
+                className="w-8 h-8 rounded-lg group-hover:scale-110 transition-transform duration-300"
+              />
+
+              {/* PredAIction Logo */}
               <img 
                 src={logo} 
-                alt="TrAIn-N-Test Logo" 
+                alt="PredAIction Logo" 
                 className="w-10 h-10 rounded-lg group-hover:scale-110 transition-transform duration-300"
               />
+
+              {/* Text */}
               <div className="hidden sm:block">
                 <h1 className="text-xl font-orbitron font-bold text-gradient">
                   PredAIction
@@ -99,20 +109,31 @@ const Navigation = () => {
       </nav>
 
       {/* Mobile Menu */}
-      <div className={`fixed inset-0 z-30 md:hidden transition-all duration-300 ${
-        isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
-      }`}>
+      <div
+        className={`fixed inset-0 z-30 md:hidden transition-all duration-300 ${
+          isMobileMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+        }`}
+      >
         <div className="absolute inset-0 bg-deep-space/95 backdrop-blur-md" />
         <div className="relative z-10 flex flex-col items-center justify-center h-full space-y-8">
           <button 
             onClick={scrollToTop}
             className="flex items-center space-x-3 mb-8 group"
           >
+            {/* New Left Logo */}
+            <img 
+              src={secondLogo} 
+              alt="Left Logo" 
+              className="w-10 h-10 rounded-lg group-hover:scale-110 transition-transform duration-300"
+            />
+
+            {/* PredAIction Logo */}
             <img 
               src={logo} 
-              alt="TrAIn-N-Test Logo" 
+              alt="PredAIction Logo" 
               className="w-12 h-12 rounded-lg group-hover:scale-110 transition-transform duration-300"
             />
+
             <div>
               <h1 className="text-2xl font-orbitron font-bold text-gradient">
                 PredAIction

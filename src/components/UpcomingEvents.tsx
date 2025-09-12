@@ -40,7 +40,7 @@ const UpcomingEvents = () => {
     {
       id: "static-2",
       title: "Generative AI",
-      description: "Discussing the ethical implications of AI, bias in machine learning, and responsible AI development practices.",
+      description: "Discover how Generative AI is transforming industries with creativity, automation, and intelligence. Join us for an engaging workshop to explore real-world applications, tools, and hands-on learning.",
       date: "To be Declared",
       time: "To be Declared",
       teacher: "To be Declared",
