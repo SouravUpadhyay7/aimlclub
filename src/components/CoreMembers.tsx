@@ -113,7 +113,7 @@ const CoreMembers = () => {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-electric-red to-cyber-blue mx-auto mb-8" />
           <p className="text-xl text-foreground/80 max-w-2xl mx-auto">
-            Meet the brilliant minds driving Synapse forward
+            Meet the brilliant minds driving PredAIction forward
           </p>
         </div>
         
