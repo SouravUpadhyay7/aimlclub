@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![SYNAPSE Logo](https://img.shields.io/badge/SYNAPSE-OFFICIAL%20TBIT%20KOLKATA%20AIML-00D4FF?style=for-the-badge&logo=brain&logoColor=white)
+![PredAIction](https://img.shields.io/badge/SYNAPSE-OFFICIAL%20TBIT%20KOLKATA%20AIML-00D4FF?style=for-the-badge&logo=brain&logoColor=white)
 ![Copyright](https://img.shields.io/badge/©%202025-TBIT%20Kolkata%20AIML%20Club-FF6B6B?style=for-the-badge&logo=copyright)
 ![Protected](https://img.shields.io/badge/PROTECTED-All%20Rights%20Reserved-FF0000?style=for-the-badge&logo=shield-check)
 
@@ -132,11 +132,7 @@ For official inquiries, licensing requests, or authorized access:
 
 ---
 
-## 🏛️ **OFFICIAL TBIT KOLKATA AIML CLUB WEBSITE FEATURES**
 
-(🔗 [Features remain same as your original README]…)
-
----
 
 ## 📄 License
 
